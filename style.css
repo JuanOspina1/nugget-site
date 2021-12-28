@@ -1,0 +1,31 @@
+/* Body */
+
+body {
+  background-color: #cac9c6;
+}
+
+/* into top card*/
+
+#intro-top-card {
+  text-align: center;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #414c2e;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  color: #e9edee;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* need to figure out how to change the color on hover */
