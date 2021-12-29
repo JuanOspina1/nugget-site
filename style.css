@@ -1,7 +1,7 @@
 /* Body */
 
 body {
-  background-color: white;
+  background-color: #e9edee;
 }
 
 /* navbar */
@@ -40,7 +40,7 @@ body {
 
 .card-images {
   padding: 10px;
-  background-color: #e9edee;
+  background-color: #b4bda5;
 }
 
 .spacer {
@@ -48,6 +48,10 @@ body {
   border: 0;
 }
 
-.idiot {
-  padding-top: 10px;
+.aligner {
+  align-content: center;
+}
+
+.footer {
+  background-color: #414c2e;
 }
