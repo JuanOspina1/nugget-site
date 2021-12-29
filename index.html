@@ -13,62 +13,66 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Nugget's World</title>
+    <title>Casa Guzman</title>
   </head>
   <body>
     <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <button type="button" class="btn btn-primary">Primary</button>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Casa Guzman</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Dogs</a>
+              <a class="nav-link" href="#">Cats</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!-- Need to stack cards when they pass a small breakpoint, need to confirm on mobile-->
     <!--Fluid Image to span page-->
-    <img src="/images/wet-dog-snip-v2.PNG" class="img-fluid" alt="..." />
-
     <div class="container-fluid">
-      <div class="card">
-        <div class="card-body justify-content-center" id="intro-top-card">
-          Welcome to my website! You can learn all about my family, friends, and
-          what toys I love.
+      <img src="/images/wet-dog-snip-v2.PNG" class="img-fluid" alt="..." />
+    </div>
+
+    <div class="container-fluid spacer">
+      <div class="card" id="intro-top-card">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+          <p></p>
         </div>
       </div>
     </div>
 
-    <!--Cards w/ nugget pics-->
-    <div class="container-fluid">
+    <!--Cards w/ pet pics-->
+    <div class="container-fluid spacer">
       <div class="row">
-        <div class="col-4">
-          <div class="card">
+        <div class="col-3">
+          <div class="card card-images">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </p>
             </div>
             <img
@@ -78,18 +82,14 @@
             />
           </div>
         </div>
-        <!-- mid component -->
-        <div class="col-4">
-          <div class="card">
+        <div class="col-3">
+          <div class="card card-images">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </p>
             </div>
             <img
@@ -99,17 +99,14 @@
             />
           </div>
         </div>
-        <div class="col-4">
-          <div class="card">
+        <div class="col-3">
+          <div class="card card-images">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
               </p>
             </div>
             <img
@@ -121,21 +118,16 @@
         </div>
       </div>
     </div>
-    <div class="container-flui">
-      <div class="row">
-        <div class="card">
-          <div class="card-header">Quote</div>
-          <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>A well-known quote, contained in a blockquote element.</p>
-              <footer class="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-          </div>
+
+    <!--Footer-->
+    <div class="container-fluid">
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Place sticky footer content here.</span>
         </div>
-      </div>
+      </footer>
     </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

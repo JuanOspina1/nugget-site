@@ -1,23 +1,20 @@
 /* Body */
 
 body {
-  background-color: #cac9c6;
-}
-
-/* into top card*/
-
-#intro-top-card {
-  text-align: center;
+  background-color: white;
 }
 
 /* navbar */
 
 .navbar {
   background-color: #414c2e;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .navbar-brand {
   color: white;
+  font-size: 30px;
 }
 
 .navbar-toggler-icon {
@@ -29,3 +26,28 @@ body {
 }
 
 /* need to figure out how to change the color on hover */
+
+/* into top card*/
+
+#intro-top-card {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: #b4bda5;
+}
+
+/* Cards */
+
+.card-images {
+  padding: 10px;
+  background-color: #e9edee;
+}
+
+.spacer {
+  padding: 10px;
+  border: 0;
+}
+
+.idiot {
+  padding-top: 10px;
+}
